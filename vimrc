@@ -17,13 +17,19 @@ set tabstop=2           " Control the number of space characters
 set shiftwidth=2        " Change the number of space characters
 set incsearch           " To move the search while typing
 set laststatus=2
-set cmdheight=2
-set backspace=2
+set cmdheight=1
+
+set wrap linebreak textwidth=0
 
 set nu
 
 set cursorline
 set noswapfile
+set nobackup
+set nowritebackup
+
+set list
+set listchars=eol:↵
 
 " When doing tab completion, give the following files lower priority. You may
 " wish to set 'wildignore' to completely ignore files, and 'wildmenu' to enable
@@ -42,8 +48,6 @@ autocmd FileType java :setlocal noexpandtab
 au BufNewFile,BufRead *.frag,*.vert,*.fp,*.vp,*.glsl setf glsl 
 
 au BufRead,BufNewFile TODO setfiletype taskpaper
-
-
 
 " }}}
 
@@ -144,10 +148,4 @@ filetype plugin indent on       " enable detection, plugins and indenting in one
 filetype plugin on
 set ofu=syntaxcomplete#Complete
 
-
-nmap <leader>s :FufFile **/<CR>
-
-"
-
 " }}}
-
