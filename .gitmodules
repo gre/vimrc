@@ -58,3 +58,6 @@
 [submodule "bundle/vim-stylus"]
 	path = bundle/vim-stylus
 	url = git://github.com/vim-scripts/vim-stylus.git
+[submodule "bundle/vim-mode"]
+	path = bundle/vim-mode
+	url = git@github.com:mustache/vim-mode.git
