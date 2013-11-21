@@ -149,3 +149,8 @@ filetype plugin on
 set ofu=syntaxcomplete#Complete
 
 " }}}
+
+" Source project settings
+if filereadable('.vimrc.local')
+  source .vimrc.local
+endif
