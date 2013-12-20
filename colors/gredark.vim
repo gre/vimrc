@@ -26,7 +26,7 @@ hi scalaVarName gui=underline
 highlight NonText                   guifg=#333333
 highlight Normal                    guifg=#E6E1DC guibg=#222222     ctermfg=gray  ctermbg=black
 highlight Cursor                    guifg=#000000 guibg=#FFFFFF     ctermfg=black ctermbg=yellow
-highlight CursorLine                guibg=#000000
+highlight CursorLine                guibg=#333333
 
 highlight Comment                   guifg=#666666 ctermfg=180 gui=italic
 highlight Constant                  guifg=#6D9CBE ctermfg=73
