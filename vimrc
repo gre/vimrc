@@ -155,3 +155,6 @@ let jshint2_save = 1
 let jshint2_confirm = 0
 let jshint2_color = 0
 let jshint2_error = 0
+
+let localvimrc_ask = 0
+
