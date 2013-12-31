@@ -13,8 +13,8 @@ set ruler               " Show the cursor position all the time
 
 set viminfo='20,\"500   " Keep a .viminfo file.
 set expandtab           " Always use space, no tabs
-set tabstop=4           " Control the number of space characters
-set shiftwidth=4        " Change the number of space characters
+set tabstop=2           " Control the number of space characters
+set shiftwidth=2        " Change the number of space characters
 set incsearch           " To move the search while typing
 set laststatus=2
 set cmdheight=1
@@ -155,8 +155,3 @@ let jshint2_save = 1
 let jshint2_confirm = 0
 let jshint2_color = 0
 let jshint2_error = 0
-
-" Source project settings
-if filereadable('.vimrc.local')
-  source .vimrc.local
-endif
