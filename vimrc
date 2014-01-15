@@ -57,7 +57,15 @@ if(has("gui_running"))
 endif
 "  }}}
 
-colorscheme gredark
+syntax enable
+if(has("gui_running"))
+  set background=dark
+  colorscheme solarized
+else
+  colorscheme default
+endif
+
+
 
 " {{{ Locale settings
 " Try to come up with some nice sane GUI fonts. Also try to set a sensible
