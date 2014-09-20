@@ -165,5 +165,3 @@ let jshint2_color = 0
 let jshint2_error = 0
 
 let localvimrc_ask = 0
-
-let g:holylight_threshold = 60000000

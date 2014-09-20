@@ -70,9 +70,6 @@
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
-[submodule "bundle/vim-holylight"]
-	path = bundle/vim-holylight
-	url = git@github.com:Dinduks/vim-holylight.git
 [submodule "bundle/vim-clojure-static"]
 	path = bundle/vim-clojure-static
 	url = git@github.com:guns/vim-clojure-static.git
