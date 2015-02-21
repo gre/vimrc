@@ -44,7 +44,7 @@ if v:version >= 700
 endif
 
 nnoremap ,cd :cd %:p:h<CR>:pwd<CR>
-autocmd FileType java :setlocal noexpandtab
+" autocmd FileType java :setlocal noexpandtab
 au BufNewFile,BufRead *.frag,*.vert,*.fp,*.vp,*.glsl setf glsl 
 
 au BufRead,BufNewFile TODO setfiletype taskpaper
@@ -158,10 +158,15 @@ set ofu=syntaxcomplete#Complete
 
 " }}}
 
-let jshint2_read = 1
-let jshint2_save = 1
-let jshint2_confirm = 0
-let jshint2_color = 0
-let jshint2_error = 0
-
 let localvimrc_ask = 0
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+let g:syntastic_javascript_checkers = ['jsxhint']

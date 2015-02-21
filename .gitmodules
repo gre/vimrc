@@ -58,9 +58,6 @@
 [submodule "bundle/vim-mode"]
 	path = bundle/vim-mode
 	url = git@github.com:mustache/vim-mode.git
-[submodule "bundle/jshint2"]
-	path = bundle/jshint2
-	url = https://github.com/Shutnik/jshint2.vim
 [submodule "bundle/zencoding-vim"]
 	path = bundle/zencoding-vim
 	url = https://github.com/mattn/emmet-vim
@@ -73,3 +70,9 @@
 [submodule "bundle/vim-clojure-static"]
 	path = bundle/vim-clojure-static
 	url = git@github.com:guns/vim-clojure-static.git
+[submodule "bundle/vim-gradle"]
+	path = bundle/vim-gradle
+	url = git@github.com:tfnico/vim-gradle.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = git@github.com:scrooloose/syntastic.git
